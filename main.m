@@ -13,7 +13,7 @@ Start = DSSObj.Start(0);
 DSSText = DSSObj.Text;
 DSSCircuit=DSSObj.ActiveCircuit;
 DSSSolution=DSSCircuit.Solution;
-DSSText.command='Compile (C:\Users\Afiq Hafizuddin\Documents\MATLAB\fyp-simulation\DYNAMIC-DUMA\master.dss)';
+DSSText.command='Compile (C:\Users\Afiq Hafizuddin\Documents\MATLAB\fyp-simulation\02-DYNAMIC-DUMA-AMEND\master.dss)';
 
 
 m1 = load('pv-profile.m'); %s Sunny day
