@@ -3,11 +3,11 @@
 ! FEEDER 1 
 // New Object=Load.LOAD1 bus1=PPU_DUMA_VCB1 phases=3 kV=11 kW=85 kvar=366 PF=0.89
 
-! FEEDER 2
+! FEEDER 2 
 New Load.LOAD2 bus1=RPPLNGI2 phases=3 kV=11 kW=732 kvar=366 PF=0.89
 New Load.LOAD3 bus1=PSTPDGN phases=3 kV=11 kW=732 kvar=366 pf=0.89
-New Load.LOAD5 bus1=BELLA phases=3 kV=11 kW=732 kvar=366 PF=0.89
 New Load.LOAD4 bus1=PDTJLNMASJID phases=3  kV=11  kW=732 kvar=366  pf=0.89
+New Load.LOAD5 bus1=BELLA phases=3 kV=11 kW=732 kvar=366 PF=0.89
 
 ! FEEDER 3
 New Load.LOAD6 bus1=PAMDRA phases=3 kV=11 kW=170 kvar=85 PF=0.89

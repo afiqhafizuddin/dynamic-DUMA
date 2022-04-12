@@ -5,7 +5,7 @@ New XYCurve.MyEff npts=4 xarray=[0.1 0.2 0.4 1.0] yarray=[0.86 0.9 0.93 0.97]
 ! FEEDER 1
 // New PVSystem.PV1 bus1=PPU_DUMA_VCB1 phases=3 kV=11 kVA=0.000001 Pmpp=0.000001 irrad=1 PF=1
 // 
-! FEEDER 2
+! FEEDER 2 
 New PVSystem.PV2 bus1=RPPLNGI2 phases=3 kV=11 kVA=0.000001 Pmpp=0.000001 irrad=1 PF=1
 New PVSystem.PV3 bus1=PSTPDGN phases=3 kV=11 kVA=0.000001 Pmpp=0.000001 irrad=1 PF=1
 New PVSystem.PV4 bus1=PDTJLNMASJID phases=3 kV=11 kVA=0.000001 Pmpp=0.000001 irrad=1 PF=1

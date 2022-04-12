@@ -36,12 +36,12 @@ Redirect pv100pc.dss
 // Redirect pv4MW.dss ! 80% PV Penetration
 // Redirect pv5MW.dss ! 100% PV Penetration        
 
-Set Voltagebases=[33 11.3]
-Set DefaultBaseFrequency=50
+// Set Voltagebases=[33 11.3]
+// Set DefaultBaseFrequency=50
 
-Set controlmode=static
-Set mode=snapshot
-Set maxiterations=200
+// Set controlmode=static
+// Set mode=snapshot
+// Set maxiterations=200
 
-calcVoltagebases
-solve
+// calcVoltagebases
+// solve
