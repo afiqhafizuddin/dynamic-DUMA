@@ -24,9 +24,9 @@ m = load('pv-profile.m'); %s Sunny day
 % m = load('pv-profile_normal.m');% normal day
 % m = load('pv-profile_overcast.m'); %overcast day
 
-n3 = load('i1_total.m')
-% n3 = load('i1_commercial.m')
-% n3 = load('i1_residential.m')
+% n3 = load('i1_total.m');
+% n3 = load('i1_commercial.m');
+n3 = load('i1_residential.m');
 
 
 % FEEDER 2
