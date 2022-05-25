@@ -1,3 +1,10 @@
+# Files
+
 Results.xls
-*.png
-residential_pv40pc.png
+solar_PV_profile.png
+
+# Directories
+
+commercial_load_graphs/
+residential_load_graphs/
+total_load_graphs/
