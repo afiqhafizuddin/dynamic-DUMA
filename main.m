@@ -24,9 +24,9 @@ m = load('pv-profile.m'); %s Sunny day
 % m = load('pv-profile_normal.m');% normal day
 % m = load('pv-profile_overcast.m'); %overcast day
 
-% n3 = load('i1_total.m');
+n3 = load('i1_total.m');
 % n3 = load('i1_commercial.m');
-n3 = load('i1_residential.m');
+% n3 = load('i1_residential.m');
 
 
 % FEEDER 2
@@ -502,7 +502,7 @@ hold on;
 plot([0 24],[y y],'r--');
 plot([0 24],[0.95 0.95],'r--');
 hold off;
-ylim([0.93 1.10]);
+ylim([0.93 1.06]);
 xlabel('Time (hr)','FontName','Times New Roman','FontSize',12)
 ylabel('Voltage (p.u.)','FontName','Times New Roman','FontSize',12)
 
@@ -559,3 +559,5 @@ xlswrite('Results',NewValues,'Sheet1',AA);
 
 %disabling the warning commands
 warning('off','MATLAB:xlswrite:Sheet1');
+
+5
